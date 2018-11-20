@@ -1,6 +1,14 @@
 package com.thibault.HomeShop;
 
 public class Customer {
-    String fullname;
-    String adress;
+    private String fullname;
+    private String adress;
+
+    public String getFullname() {
+        return fullname;
+    }
+
+    public String getAdress() {
+        return adress;
+    }
 }
